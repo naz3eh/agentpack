@@ -1,0 +1,15 @@
+{
+  "name": "@agentpack/jev",
+  "version": "0.1.0",
+  "description": "Injectable TypeSafe/Jev client wrapper with deterministic fallbacks",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  }
+}

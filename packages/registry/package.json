@@ -1,0 +1,20 @@
+{
+  "name": "@agentpack/registry",
+  "version": "0.1.0",
+  "description": "Minimal REST registry for agentpack packages (SQLite + on-disk blobs)",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "agentpack-registry": "dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@agentpack/schema": "0.1.0",
+    "better-sqlite3": "^12.4.1",
+    "tar": "^7.5.0"
+  }
+}
