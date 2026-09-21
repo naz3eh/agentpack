@@ -1,0 +1,14 @@
+{
+  "name": "summarize-url",
+  "version": "0.1.0",
+  "description": "Fetches a web page and summarizes it with an LLM",
+  "entrypoint": "index.js",
+  "runtime": "node20",
+  "scopes": [
+    "net:*",
+    "llm:call",
+    "env:PAGE_URL",
+    "env:SUMMARY_LANG"
+  ],
+  "models": { "preferred": ["gpt-4o-mini"] }
+}

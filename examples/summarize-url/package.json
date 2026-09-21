@@ -1,0 +1,11 @@
+{
+  "name": "summarize-url",
+  "version": "0.1.0",
+  "description": "Example agentpack agent: fetches a web page and summarizes it via the brokered LLM endpoint.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'nothing to build (plain JS)'"
+  }
+}
